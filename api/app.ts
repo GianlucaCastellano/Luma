@@ -1,6 +1,9 @@
 import express from "express";
 import figlet from "figlet";
 import chalk from "chalk"
+import dotenv from "dotenv";
+
+dotenv.config();
 
 const app = express();
 
